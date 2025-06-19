@@ -1,13 +1,23 @@
 {
     "atomType": "Molecule",
-    "name": "Maslow CNC",
+    "name": "Maslow-CNC",
     "x": 0,
     "y": 0,
     "uniqueID": "737a8660-7764-4a6d-83c4-09e07c37751f",
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": "7a8eb28f-b2ee-4ec5-8da4-f67d187e5b6d",
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
